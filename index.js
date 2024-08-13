@@ -10,6 +10,9 @@ app.get('/', (req, res) => {
 app.get('/hello',(req,res)=> { 
     res.send('hello')
 })
+app.get('/hello',(req,res)=> { 
+    res.send('hello')
+})
 
 app.get('/json', (req, res)=>  {
         res.json({
